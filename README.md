@@ -42,3 +42,7 @@ Para generar el archivo para importar en Anki, puedes ejecutar el siguiente coma
 ```bash
 npm run generate
 ```
+
+### Estilos para las flashcards
+
+Los estilos para las flashcards se pueden encontrar en el archivo `src/styles/card.css`.
