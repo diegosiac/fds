@@ -1,0 +1,20 @@
+.card {
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+  
+#answer {
+    margin: 40px 0 50px;
+}
+  
+.front-card {
+    max-width: 65ch;
+}
+  
+.back-card {
+    text-align: center;
+}

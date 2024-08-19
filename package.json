@@ -1,0 +1,26 @@
+{
+	"name": "school-upload-ratings",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"scrap": "node --import=tsx --env-file=.env ./src/scrap.ts",
+		"traduce": "node --import=tsx --env-file=.env ./src/translate.ts",
+		"generate": "node --import=tsx --env-file=.env ./src/generate.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@playwright/test": "1.46.1",
+		"@types/node": "22.4.1",
+		"ts-node": "10.9.2",
+		"tsx": "4.17.0",
+		"typescript": "5.5.4"
+	},
+	"dependencies": {
+		"@ai-sdk/openai": "0.0.48",
+		"ai": "3.3.10",
+		"playwright": "1.46.1"
+	}
+}
