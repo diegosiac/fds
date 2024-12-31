@@ -8,9 +8,9 @@ import { systemContextTranslatePrompt } from "./constants/prompts";
 const inputPath = initialPath;
 const outputPath = translationsPath;
 
-let totalTokens = 736;
-let promptTokens = 651;
-let completionTokens = 85;
+let totalTokens = 0;
+let promptTokens = 0;
+let completionTokens = 0;
 
 const maxBatchSize: null | number = null;
 
